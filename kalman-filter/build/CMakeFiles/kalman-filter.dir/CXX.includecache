@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/zrx/soft/way-to-autonomous-driving-car/kalman-filter/kalman-filter.cc
+Eigen/Dense
+-
+iostream
+-
+
